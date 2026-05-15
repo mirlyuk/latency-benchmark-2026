@@ -49,7 +49,7 @@ Raw per-run data: [`data/runs-2026-05-15.csv`](data/runs-2026-05-15.csv).
 
 - **Machine**: MacBook Air M2, 16 GB RAM, macOS 14.5, plugged in, single-app foreground
 - **Network**: gigabit ethernet, London (deliberate worst-case for US-East-hosted vendors)
-- **Audio source**: pre-recorded 16 kHz mono WAV, 12.4 seconds, played into system audio via [BlackHole](https://github.com/ExistentialAudio/BlackHole) so every copilot receives the same bytes
+- **Audio source**: 16 kHz mono WAV (`audio/question-behavioural-12s.wav`) played into system audio via [BlackHole](https://github.com/ExistentialAudio/BlackHole) so every copilot receives identical bytes. v1 of the dataset uses **synthesised audio** generated with macOS `say -v Daniel -r 175` for reproducibility (anyone re-running can regenerate the exact bytes from a stock Mac). A native British-English **human recording** replaces it in the 2026-Q3 run — synthetic cadence stresses STT slightly differently from a real interviewer, and we want both numbers in the public history
 - **Question text**: *"Tell me about a time you led a contentious technical decision."*
 - **Metric**: time from the **last syllable** of the question (measured against the WAV's timestamp) to the **first visible token** in the copilot's UI
 - **Capture**: 60 fps screen recording (QuickTime), frame-counted with [`harness/count-frames.mjs`](harness/count-frames.mjs)
@@ -71,6 +71,7 @@ A full vendor sweep takes ~3 hours. The harness is intentionally low-tech — ev
 
 ## Open questions / known caveats
 
+- **Synthesised audio in v1.** `audio/question-behavioural-12s.wav` is generated via macOS `say -v Daniel -r 175`. Pros: bit-identical reproducibility on any Mac, zero recording artefacts. Cons: a real interviewer's cadence has slightly different prosody and timing, which can stress the STT layer differently. The 2026-Q3 run re-measures with a native British-English human recording and publishes both columns side-by-side so the synth-vs-human delta is visible.
 - **One question type.** Behavioural. Coding and technical-deep-dive questions stress the LLM differently. Per-category benchmarks scheduled for the 2026-Q3 run.
 - **One machine.** Apple Silicon M2. Intel Mac + Windows runs in flight.
 - **One geography.** London. US-East candidates should see lower absolute numbers for US-hosted competitors; relative ordering should hold.
