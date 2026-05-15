@@ -1,0 +1,71 @@
+date,vendor,run_id,kind,ms
+2026-05-15,Mirly,1,cold,412
+2026-05-15,Mirly,2,warm,131
+2026-05-15,Mirly,3,warm,127
+2026-05-15,Mirly,4,warm,124
+2026-05-15,Mirly,5,warm,127
+2026-05-15,Mirly,6,warm,135
+2026-05-15,Mirly,7,warm,122
+2026-05-15,Mirly,8,warm,128
+2026-05-15,Mirly,9,warm,189
+2026-05-15,Mirly,10,warm,129
+2026-05-15,Parakeet AI,1,cold,1210
+2026-05-15,Parakeet AI,2,warm,418
+2026-05-15,Parakeet AI,3,warm,421
+2026-05-15,Parakeet AI,4,warm,407
+2026-05-15,Parakeet AI,5,warm,424
+2026-05-15,Parakeet AI,6,warm,449
+2026-05-15,Parakeet AI,7,warm,431
+2026-05-15,Parakeet AI,8,warm,421
+2026-05-15,Parakeet AI,9,warm,690
+2026-05-15,Parakeet AI,10,warm,418
+2026-05-15,LockedIn AI,1,cold,1560
+2026-05-15,LockedIn AI,2,warm,476
+2026-05-15,LockedIn AI,3,warm,478
+2026-05-15,LockedIn AI,4,warm,481
+2026-05-15,LockedIn AI,5,warm,475
+2026-05-15,LockedIn AI,6,warm,510
+2026-05-15,LockedIn AI,7,warm,489
+2026-05-15,LockedIn AI,8,warm,478
+2026-05-15,LockedIn AI,9,warm,820
+2026-05-15,LockedIn AI,10,warm,471
+2026-05-15,Verve AI,1,cold,1520
+2026-05-15,Verve AI,2,warm,580
+2026-05-15,Verve AI,3,warm,581
+2026-05-15,Verve AI,4,warm,592
+2026-05-15,Verve AI,5,warm,578
+2026-05-15,Verve AI,6,warm,621
+2026-05-15,Verve AI,7,warm,575
+2026-05-15,Verve AI,8,warm,581
+2026-05-15,Verve AI,9,warm,970
+2026-05-15,Verve AI,10,warm,584
+2026-05-15,Cluely,1,cold,1920
+2026-05-15,Cluely,2,warm,608
+2026-05-15,Cluely,3,warm,612
+2026-05-15,Cluely,4,warm,605
+2026-05-15,Cluely,5,warm,617
+2026-05-15,Cluely,6,warm,664
+2026-05-15,Cluely,7,warm,612
+2026-05-15,Cluely,8,warm,609
+2026-05-15,Cluely,9,warm,1184
+2026-05-15,Cluely,10,warm,610
+2026-05-15,Sensei AI,1,cold,1470
+2026-05-15,Sensei AI,2,warm,716
+2026-05-15,Sensei AI,3,warm,718
+2026-05-15,Sensei AI,4,warm,712
+2026-05-15,Sensei AI,5,warm,720
+2026-05-15,Sensei AI,6,warm,749
+2026-05-15,Sensei AI,7,warm,718
+2026-05-15,Sensei AI,8,warm,715
+2026-05-15,Sensei AI,9,warm,1030
+2026-05-15,Sensei AI,10,warm,720
+2026-05-15,Final Round AI,1,cold,3820
+2026-05-15,Final Round AI,2,warm,1808
+2026-05-15,Final Round AI,3,warm,1810
+2026-05-15,Final Round AI,4,warm,1812
+2026-05-15,Final Round AI,5,warm,1804
+2026-05-15,Final Round AI,6,warm,1849
+2026-05-15,Final Round AI,7,warm,1810
+2026-05-15,Final Round AI,8,warm,1815
+2026-05-15,Final Round AI,9,warm,2940
+2026-05-15,Final Round AI,10,warm,1810

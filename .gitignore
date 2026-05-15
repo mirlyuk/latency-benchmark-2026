@@ -1,0 +1,10 @@
+# Screen recordings are large (~150 MB each); host on Cloudflare R2 or GitHub
+# Releases as a separate asset. The repo itself stays under 5 MB.
+recordings/*.mov
+recordings/*.mp4
+recordings/*.qtmovie
+
+# Local-only working files
+.DS_Store
+node_modules/
+.env
